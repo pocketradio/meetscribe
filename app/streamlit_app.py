@@ -5,6 +5,7 @@ import uuid
 import tempfile
 import os
 
+st.set_page_config(layout="wide")
 st.title("Meetscribe")
 st.subheader("AI-Powered Meeting Analysis with Human-in-the-Loop")
 
