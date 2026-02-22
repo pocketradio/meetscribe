@@ -5,7 +5,14 @@ description = "app using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
-    "crewai[tools]==1.9.3"
+    "boto3>=1.42.54",
+    "crewai[tools]==1.9.3",
+    "langchain-aws>=1.2.5",
+    "langchain-community>=0.4.1",
+    "langgraph>=1.0.9",
+    "pypdf>=6.7.1",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.54.0",
 ]
 
 [project.scripts]
